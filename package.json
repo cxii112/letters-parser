@@ -1,0 +1,20 @@
+{
+  "name": "letters-parser",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/jsdom": "^20.0.0",
+    "@types/node": "^18.7.17",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "start": "node build/index",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "got": "^12.4.1",
+    "jsdom": "^20.0.0"
+  }
+}
